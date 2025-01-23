@@ -69,7 +69,9 @@ Q -> WHY DO WE USE LOOP
 //   console.log("sorry");
 // }
 // console.log("MEN BAAD MEN LIKHA HUWA HUN", arr.length);
-
+ASLDKFJ;
+LKASJDFKL;
+JASDLKF;
 // ! CHANGING CASES OF STRING
 /*
 Q => WHY DO WE CHANGE THE CASE OF STRING
