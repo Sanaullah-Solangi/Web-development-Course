@@ -91,9 +91,6 @@ Q -> WHY DO WE USE LOOP
 //     console.log(i, j);
 //   }
 // }
-
-asdfasdfasdf;
-SFSFASDF;
 // ! CHANGING CASES OF STRING
 /*
 Q => WHY DO WE CHANGE THE CASE OF STRING
