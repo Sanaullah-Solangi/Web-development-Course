@@ -69,28 +69,28 @@ Q -> WHY DO WE USE LOOP
 //   console.log("sorry");
 // }
 // console.log("MEN BAAD MEN LIKHA HUWA HUN", arr.length);
-const arr = [
-  "Ahmed",
-  "Fatima",
-  "Ali",
-  "Ayesha",
-  "Hassan",
-  "Fatima",
-  "Zainab",
-  "Hafsa",
-  "Umar",
-  "Khadija",
-  "Bilal",
-  "Khadija",
-  "Ali",
-  "Ahmed",
-  "Hafsa",
-];
-for (var i = 1; i <= 5; i++) {
-  for (var j = i; j <= 5; j++) {
-    console.log(i, j);
-  }
-}
+// const arr = [
+// "Ahmed",
+// "Fatima",
+// "Ali",
+// "Ayesha",
+// "Hassan",
+// "Fatima",
+// "Zainab",
+// "Hafsa",
+// "Umar",
+// "Khadija",
+// "Bilal",
+// "Khadija",
+// "Ali",
+// "Ahmed",
+// "Hafsa",
+// ];
+// for (var i = 1; i <= 5; i++) {
+//   for (var j = i; j <= 5; j++) {
+//     console.log(i, j);
+//   }
+// }
 
 // ! CHANGING CASES OF STRING
 /*
