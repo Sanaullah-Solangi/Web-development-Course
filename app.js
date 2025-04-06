@@ -38,59 +38,6 @@ Q -> WHY DO WE USE LOOP
 13 - PALINDROM WORDS KO CHECK KRNA HAI WO WORD JO ULTA KRNE PER BHI SAME REHTE HEN
 */
 
-// var userInput = prompt("Enter your value");
-// var flag = false;
-// var searchedName = "";
-// var nameIndex = 0;
-// const arr = [
-//   "Ahmed",
-//   "Fatima",
-//   "Ali",
-//   "Ayesha",
-//   "Hassan",
-//   "Zainab",
-//   "Umar",
-//   "Khadija",
-//   "Bilal",
-//   "Hafsa",
-// ];
-// for (var i = 0; i < arr.length; i++) {
-//   console.log("i ki value =>", i);
-//   if (userInput == arr[i]) {
-//     flag = true;
-//     searchedName = arr[i];
-//     nameIndex = i + 1;
-//     break;
-//   }
-// }
-// if (flag) {
-//   console.log("Hi", searchedName, "kese ho apka", nameIndex, "number hai");
-// } else {
-//   console.log("sorry");
-// }
-// console.log("MEN BAAD MEN LIKHA HUWA HUN", arr.length);
-// const arr = [
-// "Ahmed",
-// "Fatima",
-// "Ali",
-// "Ayesha",
-// "Hassan",
-// "Fatima",
-// "Zainab",
-// "Hafsa",
-// "Umar",
-// "Khadija",
-// "Bilal",
-// "Khadija",
-// "Ali",
-// "Ahmed",
-// "Hafsa",
-// ];
-// for (var i = 1; i <= 5; i++) {
-//   for (var j = i; j <= 5; j++) {
-//     console.log(i, j);
-//   }
-// }
 // ! CHANGING CASES OF STRING
 /*
 Q => WHY DO WE CHANGE THE CASE OF STRING
@@ -101,8 +48,28 @@ FOR EXAMPLE-> AGAR USER CAMPLE CASE MEN, CAPITAL LETTERS MEN, YA AIK LETTER BARA
 */
 
 //! FINDING SEGMENT
+
+// var arr = [
+//   "apple",
+//   "barry",
+//   "mango",
+//   "apple",
+//   "grapse",
+//   "banana",
+//   "mango",
+//   "banana",
+// ];
+// var value = prompt();
+// const index = arr.indexOf(value);
+// if (index != -1) {
+//   console.log("ARR =>", index, arr[index]);
+//   console.log("INDEX =>", index);
+// } else {
+//   console.log("Value not foud");
+// }
+
 /*
-1 ==> INDEXOFZ()
+1 ==> INDEXOF()
 YE ARRAY OR STRING DONO PER CHALTA HAI
 YE VALUE MILNE PER USKA INDEX RETURN KRTA HAI
 OR VALUE NA MILNE PER YE -1 RETURN KRTA HAI.
@@ -112,14 +79,45 @@ OR VALUE NA MILNE PER YE -1 RETURN KRTA HAI.
 YE BHI INDEXOF KI TARAH HAI BAS YE LAST MEN SE VALUE KO DHOONDHTA HAI
 OR YE BHI RETURN MEN VALUE KA INDEX RETURN KRTA HAI.
 */
-
+// var string = "muhammad sanaullah";
+// console.log("STRING =>", string.length);
 //! REPLACING CHARACTORS
 /*
 LOOP K ZARIE WORD KO DHOONDHNA HAI STRING MEN SE
 USE REPLACE KRNA HAI NEW WORD SE
 */
 
+// var sentence =
+//   "<b>Hamza</b> aur <b>Sanaullah</b> ek café mein baithay gupshup kar rahe thay. <b>Hamza</b> ne hasi mazak mein kaha, Bhai, tu backend developer ban gaya hai, magar mujhe lagta hai front-end bhi seekhna padega, warna mujhe har dafa teri madad leni paregi! <b>Sanaullah</b> hans kar bola, Haan bhai, seekh le warna har project pe mujhe tag karna parega! Dono hansne lage aur apni coding struggles aur future projects ke baare mein baat karne lage.";
+// var value = "sanaullah";
+// if (value != "") {
+//   for (var i = 0; i < sentence.length; i++) {
+//     if (value == sentence.slice(i, i + value.length)) {
+//       sentence =
+//         sentence.slice(0, i) + "Chacha" + sentence.slice(i + value.length);
+//     }
+//   }
+// }
+// SCOP
+// block
+
+// if (true) {
+//   const hamza = "my name is funny";
+//   console.log("hamza =>", hamza);
+// }
+// const hamza = "my name is funny";
+// console.log("hamza =>", hamza);
+
+//! VAR
+//! let
+//! const
+// const userName = "sanaullah";
 //! RANDOM NUMBERS
+// const num = Math.round(Math.random() * 10000);
+// const num = 3.2;
+// console.log(Math.ceil(num));
+
+// console.log("VU" + num);
 /*
 MATH.RANDOM()
 1=> PASSWORD GENERATOR
@@ -137,3 +135,64 @@ OR PARSEFLOAT AS IT IS WITH DECIMALS STRING KO NUMBERS MEN CONVERT KRTA HAI.
 3=> HACKER RANK
 
 */
+
+// value k saath + ka sign laga dene se wo value number men convert ho jati hai
+
+// 2nd tareeqa ye hai k javascript k 2 methods hen
+// 1 - parseInt
+// 2 - parseFlout
+// in k andar wrape krne se value number men convert ho jati hai
+
+/*
+ParseInt or parseFlout men ye faraq hai k parseInt decimal values ko hata deta hai or khalis integer value ko rehne deta hai
+
+jabke parseFlout decimal value ko bhi parse kr deta hai
+*/
+
+// parse ka mtlab hai string ko number men convert krna.
+
+// integer hole number ko kehte hen 8,9,2,10
+// decimal number wo hote hen jo k hole number k baad point k baad likhe jate hen jese 8.8, 2.10 in examples men . k baad wale numer decimals hen
+
+// Number
+
+// parseFlout method
+// parseInt method
+// Numebr method
+// + ka sign
+// const age = Number(prompt("Enter your age"));
+/*
++ = concatinate jore degi
+- = minus hoga
+* = multiply hoga
+/ = divide hoga
+*/
+
+// let dob = new Date("5 Jan 2000");
+// let date = new Date();
+// let diff = date - dob;
+// let seconds = diff / 1000;
+// let mints = (diff / 1000) * 60;
+
+// let years = Math.floor(diff / (1000 * 60 * 60 * 24 * 30 * 12));
+// console.log(diff);
+// console.log(seconds);
+// console.log(mints);
+
+const calcDisplay = document.getElementById("display");
+console.log(calcDisplay);
+function abc(e) {
+  if (e.target.localName == "div") {
+    console.log("e.target.innerHTML", e.target.innerHTML);
+  } else {
+    console.log("e.target.value", e.target.value);
+  }
+  if (e.target.value == "AC") {
+    calcDisplay.innerHTML = "";
+  } else if (e.target.value != "AC" && e.target.value != "CE") {
+    calcDisplay.innerHTML += e.target.value;
+  }
+  if (e.target.value == "CE") {
+    calcDisplay.innerHTML = calcDisplay.innerHTML.slice(0, -1);
+  }
+}
